@@ -1,0 +1,17 @@
+{
+  "name": "nested-reexports-demo",
+  "version": "1.0.0",
+  "description": "",
+  "module": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepare": "webpack && js-beautify sampleBundle.js -o sampleBundle.pretty.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "js-beautify": "^1.8.6",
+    "webpack": "^4.19.1",
+    "webpack-cli": "^3.1.0"
+  }
+}
