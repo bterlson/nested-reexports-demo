@@ -1,5 +1,4 @@
-import * as m1 from "./module1";
-import * as m2 from "./module2";
-
-// note: `export * as m1` syntax doesn't appear to be supported
-export { m1, m2 };
+import * as m1 from './module1';
+export { m1 };
+// export * as m1 from './module1';
+// however works fine, but is not widely supported by tooling yet.
